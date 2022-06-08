@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>MRScanners</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- <link href="css/stylesheet.css" rel="stylesheet"> -->
+    <link href="css/all.min.css" rel="stylesheet">
+
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
+    <meta name="theme-color" content="#7952b3">
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="sticky-footer-navbar.css" rel="stylesheet">
+</head>
+
+<body class="d-flex flex-column h-100">
+
+    <header>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> <img src="images/logo.png" width="50vw"> MRScanners</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+
+                    <form class="d-flex">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="reco.html">Recommend</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" href="about.html" tabindex="-1"
+                                    aria-disabled="true">About</a>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Begin page content -->
+    <main class="flex-shrink-0 pt-5">
+        <div class="container">
+            <h1 class="mt-5">MRScanners</h1>
+            <p class="lead">The accurate Movies and Series Recommendation system</p>
+            <p>
+                In this hustling world, entertainment is a necessity for each one of us to refresh our mood and
+                energy. Entertainment regains our confidence for work and we can work more enthusiastically.<br>
+                For revitalizing ourselves, we can listen to our preferred music or can watch movies of our
+                choice. For watching favourable movies online we can utilize movie recommendation systems,
+                which are more reliable, since searching for preferred movies will require more and more time
+                which one cannot afford to waste and there is no guarantee that a particular random choice of
+                the movie will be to our taste and the probability of us liking that too is therefore random and
+                on some cases might be very small.<br>
+                In this paper, to improve the quality of a movie recommendation system, a Hybrid approach is
+                discussed which is done by combining the content-based filtering which focuses on the
+                description, cast and other describing parameters of the movie with the collaborative filtering
+                system which focuses on the similarity with other users, using Support Vector Machine as a
+                classifier and genetic algorithm is presented in the proposed methodology and comparative
+                results have been shown which depicts that the proposed approach shows an improvement in
+                the accuracy, quality and scalability of the movie recommendation system than the pure
+                approaches in three different datasets. The hybrid approach helps to get the advantages from
+                both approaches as well as tries to eliminate the drawbacks of both methods, which include the
+                problem of a cold start or that of recommending a new movie with no initial ratings.<br>
+                The approach has been fruitful and, in our work, we recommend movies by taking a minimum
+                of three parameters which are movies, we ask them in a certain order to satisfy our algorithm
+                and after which the recommendations are based on our correlation with the other users and also
+                on the closeness with the descriptions of our movie with the ones in the dataset.<br> The model
+                gives a fast and accurate result to the users and is also integrated with a User Interface and
+                hosted online.
+                We present, MRScanners, a dynamic movie-recommendation system available as a web and
+                executable application!
+            </p>
+            <hr>
+            <div class="row py-3">
+                <div class="col-md-6">
+
+                    <!-- <p>Back to <a href="/docs/5.0/examples/sticky-footer/">the default sticky footer</a> minus the navbar.</p> -->
+
+                    <br>
+                    <h2>Team</h2>
+                    <p class="lead">We are developers are based out of Manipal University, Jaipur. Our team consists of:
+                    </p>
+                    <ul>
+                        <li>Yash Raj Goel </li>
+
+                        <li>Jeet Dhokiya </li>
+
+                    </ul>
+
+                    <p class="lead">Site available at <a href="jedetin.github.io/mrscanners">MRScanners</a></p>
+
+                </div>
+                <div class="col-md-6">
+                    <h1> Contact Developers</h1>
+                    <form id="contactForm">
+
+                        <!-- Name input -->
+                        <div class="mb-3">
+                            <label class="form-label" for="name">Name</label>
+                            <input class="form-control" id="name" type="text" placeholder="Name" />
+                        </div>
+
+                        <!-- Email address input -->
+                        <div class="mb-3">
+                            <label class="form-label" for="emailAddress">Email Address</label>
+                            <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" />
+                        </div>
+
+                        <!-- Message input -->
+                        <div class="mb-3">
+                            <label class="form-label" for="message">Message</label>
+                            <textarea class="form-control" id="message" type="text" placeholder="Message"
+                                style="height: 10rem;"></textarea>
+                        </div>
+
+                        <!-- Form submit button -->
+                        <div class="d-grid">
+                            <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+            <span class="text-muted">2022 &copy; MRScanner &mdash; Jeet Dhokiya and Yash Raj Goel</span> </span>
+        </div>
+    </footer>
+
+
+    <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
